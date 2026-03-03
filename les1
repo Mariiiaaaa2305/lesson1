@@ -1,0 +1,24 @@
+#1task
+num1 = 10
+num2 = 20
+result = num1 + num2
+print(result)
+
+print("Matviy", "Kateruna", "Nazar", "Ilona","Vlad","Andriy")
+
+name =input("What is your name? ")
+age = input("What is your age? ")
+print("Hello " + name + "!")
+print(f"Hello {age}!")
+
+a = int(input(" Введіть перше число:  "))
+b = int(input(" Введіть перше число:  "))
+results = a - b
+print(results)
+print(f"Різниця :{results}")
+print("Різниця" , results)
+
+students=["Matviy", "Kateruna", "Nazar", "Ilona","Vlad","Andriy"]
+print(students)
+for student in students:
+    print(student)
